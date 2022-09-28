@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;700&display=swap');
+*{
+    font-family: 'Noto Sans TC', sans-serif;
+    color:#454545;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .1);
+}
+.header .container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name{
+    font-weight: 700;
+    font-size: 20px;
+}
+.name span{
+    font-weight: 300;
+    font-size: 16px;
+}
+.menu{
+    font-weight: 300;
+}
+.menu a{
+    margin: 5px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+}
+.menu a:hover{
+    background: #f4f4f4;
+    border-radius: 8px;
+    transition: .5s;
+}
+.intro{
+    display: flex;
+}
+.intro h1{
+    font-size: 45px;
+}
+.intro p{
+    font-size: 20px;
+    /* font-weight: 300; */
+    margin-bottom: 32px;
+}
+.intro .container{
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 130px;
+}
+.btn{
+    padding: 15px 25px;
+    font-size: 18px;
+    background: #454545;
+    width: 150px;
+    color: #fff;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+.btn:hover{
+    cursor: pointer;
+    background: #f6e064;
+    transition: .5s;
+    color: #454545;
+}
+.socialProof .container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.socialProof .container h2{
+    margin-top: 48px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.decoLine{
+    width: 1.3px;
+    height: 50px;
+    background: #454545;
+    margin-left: auto;
+    margin-right: auto;
+}
+.circle{
+    width: 5px;
+    height: 5px;
+    background: #454545;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.partners{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 32px;
+}
+.partner{
+    width: 10%;
+    height: 10%;
+}
+.projects{
+    padding-bottom: 32px;
+}
+.projects .container h2{
+    margin-top: 32px;
+}
+.projects .container{
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+.projects .container a{
+    height: 400px;
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    border-radius: 5px;
+}
+.projects .container a:hover{
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, .2);
+    transform: translateY(-2%);
+    transition-duration: .5s;
+}
+.project1:hover{
+    background: rgba(255, 253, 234, 0.862);
+}
+/* hr 動畫還要研究一下怎麼做*/
+@keyframes hrAppear{
+    from { opacity: 0%; }
+    to { opacity: 100%; }
+}
+.txt hr{
+    height: .5px;
+    width: 80%;
+    transform: translateX(-12%);
+    background-color: #454545;
+    border: none;
+    animation-name: hrAppear;
+    animation-duration: .5s;
+}
+img{
+    height: 100%;
+    border-radius: 0 5px 5px 0;
+}
+.project2 img{
+    border-radius: 5px 0 0 5px;
+}
+.txt{
+    text-align: left;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.txt h3{
+    font-size: 26px;
+}
+.project2{
+    flex-direction: row-reverse;
+}
+.project2:hover{
+    background: rgba(255, 246, 234, 0.862);
+}
+.project2 .txt{
+    margin-left: 20px;
+}
+.project{
+    margin: 32px;
+}
+.project3:hover{
+    background: rgba(247, 247, 247, 0.862);
+}
+.footer .container{
+    text-align: center;
+    border-top: .5px solid #454545;
+}
+.footer .container h2{
+    margin-top: 48px;
+}
+.mailIcon span{
+    margin-left: 8px;
+}
+.copyright{
+    opacity: 50%;
+    padding-top: 16px;
+    padding-bottom: 60px;
+    font-size: 14px;
+}
+.otherWorks .container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.otherWorks .container h2{
+    text-align: center;
+    margin-top: 32px;
+}
+.works{
+    display: flex;
+    margin-bottom: 32px;
+    padding: 16px;
+}
+.work1{
+    width: 560px;
+    height: 450px;
+    display: flex;
+    background-image: url(57486708_460223311387563_2926082277265899520_n.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.work1 .txt{
+    opacity: 0;
+    width: 100%;
+    transition: .5s;
+    background-color: #e0bbbb;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work1:hover .txt{
+    opacity: .8;
+    cursor: pointer;
+}
+.works h3{
+    font-size: 44px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+.worksBlock{
+    width: 340px;
+}
+.work2{
+    height: 225px;
+    display: flex;
+    background-image: url(good-skin-club-BpgTabE87bM-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.work2 .txt{
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    background-color: #a5ccff;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+}
+.work2 .txt:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+.work3{
+    height: 225px;
+    display: flex;
+    background-image: url(lumin-1mp7rF7_j2I-unsplash.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.work3 .txt{
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    background-color: #a9d1ce;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 50px;
+}
+.work3 .txt:hover{
+    opacity: .8;
+    cursor: pointer;
+}

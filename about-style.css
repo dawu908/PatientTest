@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;700&display=swap');
+*{
+    font-family: 'Noto Sans TC', sans-serif;
+    color:#454545;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .1);
+}
+.header .container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name{
+    font-weight: 700;
+    font-size: 20px;
+}
+.name span{
+    font-weight: 300;
+    font-size: 16px;
+}
+.menu{
+    font-weight: 300;
+}
+.menu a{
+    margin: 5px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+}
+.menu a:hover{
+    background: #f4f4f4;
+    border-radius: 8px;
+    transition: .5s;
+}
+.briefIntro{
+    margin-left: auto;
+    margin-right: auto;
+}
+.briefIntro .container{
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 120px;
+    justify-content: center;
+    align-items: center;
+}
+.briefIntro .txt{
+    width: 250px;
+}
+.briefIntro .txt p{
+    /* font-weight: 300; */
+}
+.photo{
+    height: 40%;
+    width: 40%;
+    border-radius: 50%;
+    margin-left: 60px;
+}
+.decoLine{
+    width: 1.3px;
+    height: 50px;
+    background: #454545;
+    margin-left: auto;
+    margin-right: auto;
+}
+.circle{
+    width: 5px;
+    height: 5px;
+    background: #454545;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile{
+    display: flex;
+}
+.profile .container{
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 32px;
+}
+.profile h2{
+    text-align: center;
+    font-size: 40px;
+}
